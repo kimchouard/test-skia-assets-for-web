@@ -1,10 +1,10 @@
 import { Canvas, Image, useImage } from "@shopify/react-native-skia";
  
 const HelloImage = () => {
-  const image = useImage(require("../assets/images/favicon.png"));
+  const image = useImage(require("../../public/images/favicon.png"));
   return (
     <Canvas style={{ flex: 1 }}>
-      <Image image={image} fit="contain" x={0} y={0} width={256} height={256} />
+      <Image image={image} fit="contain" x={20} y={20} width={256} height={256} />
     </Canvas>
   );
 };

@@ -14,8 +14,10 @@ export default function TabOneScreen() {
       <View style={styles.helpContainer}>
         <Text>Loading fonts for texts:</Text>
         <Link style={styles.helpLink} href="/text-bug">Bug with &lt;Text /&gt;</Link>
+        <Link style={styles.helpLink} href="/text-fixed">Temp Fix for &lt;Text /&gt;</Link>
         <Text>Loading images:</Text>
         <Link style={styles.helpLink} href="/image-bug">Bug with &lt;Image /&gt;</Link>
+        <Link style={styles.helpLink} href="/image-fixed">Temp Fix for &lt;Image /&gt;</Link>
       </View>
     </View>
   );
